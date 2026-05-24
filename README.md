@@ -20,6 +20,8 @@ across HPC clusters.
   OSM building-classification bug affecting ~1M data points (cut synthetic-home
   artifacts from ~38% to ~5.5%), and ran a 4-city HPC parameter sweep to
   optimize commute-path realism. *C++, OpenMP, OSC Pitzer*
+  → Merged PRs: [#1](https://github.com/raodj/cityscape/pull/1) ·
+  [#2](https://github.com/raodj/cityscape/pull/2)
 
 🎯 **Interests:** High-performance computing, simulation, agentic AI,
 distributed systems, and building things that actually ship.
