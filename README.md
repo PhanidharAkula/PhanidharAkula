@@ -16,8 +16,8 @@ across HPC clusters.
 - **[LumiAI](https://github.com/phanidhar/LumiAI)** — Production AI tutoring
   platform serving 55+ active students. *React, TypeScript, Supabase, OpenAI*
 - **Open-source contributor to [Cityscape](https://github.com/raodj/cityscape)**
-  — a C++ population-synthesis research framework. Diagnosed and fixed an
-  OSM building-classification bug affecting ~1M data points (cut synthetic-home
+  — a C++ population-synthesis research framework. Diagnosed and fixed an OSM
+  building-classification bug affecting ~1M data points (cut synthetic-home
   artifacts from ~38% to ~5.5%), and ran a 4-city HPC parameter sweep to
   optimize commute-path realism. *C++, OpenMP, OSC Pitzer*
   → Merged PRs: [#1](https://github.com/raodj/cityscape/pull/1) ·
