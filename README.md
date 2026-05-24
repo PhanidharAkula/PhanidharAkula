@@ -10,10 +10,10 @@ cross-simulator benchmarking framework for urban traffic simulation, deployed
 across HPC clusters.
 
 🛠️ **Recent work:**
-- **[SimForge](https://github.com/phanidhar/simforge)** — Cross-simulator
+- **[SimForge](https://github.com/phanidharakula/simforge)** — Cross-simulator
   benchmarking framework (SUMO · MATSim · DTALite) with byte-identical
   reproducibility and a ~25–30× routing speedup on HPC. *Python, OpenMP, SLURM*
-- **[LumiAI](https://github.com/phanidhar/LumiAI)** — Production AI tutoring
+- **[LumiAI](https://github.com/phanidharakula/LumiAI)** — Production AI tutoring
   platform serving 55+ active students. *React, TypeScript, Supabase, OpenAI*
 - **Open-source contributor to [Cityscape](https://github.com/raodj/cityscape)**
   — a C++ population-synthesis research framework. Diagnosed and fixed an OSM
