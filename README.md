@@ -30,4 +30,4 @@ distributed systems, and building things that actually ship.
 ---
 
 **Tech I work with:**
-`Python` `TypeScript` `React` `OpenMP` `SLURM` `PyTorch` `Docker` `PostgreSQL` `AWS`
+`Python` `C++` `TypeScript` `React` `OpenMP` `SLURM` `PyTorch` `Docker` `PostgreSQL` `AWS`
