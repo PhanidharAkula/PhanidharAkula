@@ -14,7 +14,7 @@ across HPC clusters.
   benchmarking framework (SUMO · MATSim · DTALite) with byte-identical
   reproducibility and a ~25–30× routing speedup on HPC. *Python, OpenMP, SLURM*
 - **[LumiAI](https://github.com/phanidharakula/LumiAI_Study_Assistant)** — Production AI tutoring
-  platform serving 55+ active students. *React, TypeScript, Supabase, OpenAI*
+  platform serving 55+ active students. *React, TypeScript, Supabase, Anthropic Claude*
 - **Open-source contributor to [Cityscape](https://github.com/raodj/cityscape)**
   — a C++ population-synthesis research framework. Diagnosed and fixed an OSM
   building-classification bug affecting ~1M data points (cut synthetic-home
