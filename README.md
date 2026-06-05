@@ -18,7 +18,7 @@ across HPC clusters.
 - **[LumiAI](https://github.com/phanidharakula/LumiAI_Study_Assistant)** — Production
   AI tutoring platform serving 55+ active students; document-grounded chat, auto-generated
   quizzes and flashcards, and spaced-repetition review. Solo-built end to end.
-  *React, TypeScript, Supabase, Anthropic Claude, Vercel serverless*
+  *React, TypeScript, Supabase, LLM Integration, Vercel serverless*
 
 - **Open-source contributor to [Cityscape](https://github.com/raodj/cityscape)**
   — a C++ population-synthesis research framework. Authored three merged PRs:
