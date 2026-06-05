@@ -2,26 +2,26 @@
 
 **MS Computer Science @ Miami University** · HPC, Simulation Systems & AI
 
-I build systems where performance and correctness both matter — from
+I build systems where performance and correctness both matter, from
 HPC-scale traffic simulation to production AI applications.
 
-🔭 **Currently:** Completing my master's thesis, **SimForge** — a reproducible,
+🔭 **Currently:** Completing my master's thesis, **SimForge**, a reproducible
 cross-simulator benchmarking framework for urban traffic simulation, deployed
 across HPC clusters.
 
 🛠️ **Recent work:**
 
-- **[SimForge](https://github.com/phanidharakula/simforge)** — Cross-simulator
+- **[SimForge](https://github.com/phanidharakula/simforge):** Cross-simulator
   benchmarking framework (SUMO · MATSim · DTALite) with byte-identical
   reproducibility and a ~25–30× routing speedup on HPC. *Python, OpenMP, SLURM*
 
-- **[LumiAI](https://github.com/phanidharakula/LumiAI_Study_Assistant)** — Production
+- **[LumiAI](https://github.com/phanidharakula/LumiAI_Study_Assistant):** Production
   AI tutoring platform serving 55+ active students; document-grounded chat, auto-generated
   quizzes and flashcards, and spaced-repetition review. Solo-built end to end.
   *React, TypeScript, Supabase, LLM Integration, Vercel serverless*
 
-- **Open-source contributor to [Cityscape](https://github.com/raodj/cityscape)**
-  — a C++ population-synthesis research framework. Authored three merged PRs:
+- **Open-source contributor to [Cityscape](https://github.com/raodj/cityscape):**
+  a C++ population-synthesis research framework. Authored three merged PRs:
   fixed OSM building-classification and orphan-ring logic across five metros
   (cut synthetic-home artifacts, e.g. LA ~70% → ~5%, and removed ~1.25M
   stranded-population records), and ran a 4-city HPC parameter sweep that raised
@@ -32,7 +32,7 @@ across HPC clusters.
 
 📄 **Publication:** First author on *"CITYSCAPE: A Digital Twin Framework for
 Temporospatial Modeling of Work-Commute Dynamics and Roadway Infrastructure
-Demand"* — under review at Frontiers (2026).
+Demand,"* under review at Frontiers (2026).
 
 🎯 **Interests:** High-performance computing, simulation, agentic AI,
 distributed systems, and building things that actually ship.
