@@ -15,7 +15,7 @@ across HPC clusters.
   benchmarking framework (SUMO · MATSim · DTALite) with byte-identical
   reproducibility and a ~25–30× routing speedup on HPC. *Python, OpenMP, SLURM*
 
-- **[LumiAI](https://github.com/phanidharakula/LumiAI_Study_Assistant):** Production
+- **[LumiAI](https://github.com/phanidharakula/Lumi_AI):** Production
   AI tutoring platform serving 55+ active students; document-grounded chat, auto-generated
   quizzes and flashcards, and spaced-repetition review. Solo-built end to end.
   *React, TypeScript, Supabase, LLM Integration, Vercel serverless*
