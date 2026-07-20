@@ -1,46 +1,33 @@
 ## Hi, I'm Phanidhar 👋
 
-**MS Computer Science @ Miami University** · HPC, Simulation Systems & AI
+**M.S. Computer Science @ Miami University** · Simulation Systems, AI & Full-Stack Software Engineering
 
-I build systems where performance and correctness both matter, from
-HPC-scale traffic simulation to production AI applications.
+I build systems where performance, correctness, and real-world usability matter — from reproducible HPC-scale traffic simulation to production AI applications used by students.
 
-🔭 **Currently:** Completing my master's thesis, **SimForge**, a reproducible
-cross-simulator benchmarking framework for urban traffic simulation, deployed
-across HPC clusters.
+🔭 **Currently:** Recently defended **SimForge**, my master's thesis: an open-source, reproducible cross-simulator benchmarking framework for urban traffic simulation, integrating SUMO, MATSim, and DTALite across large-scale geospatial demand pipelines and HPC clusters.
 
 🛠️ **Recent work:**
 
-- **[SimForge](https://github.com/phanidharakula/simforge):** Cross-simulator
-  benchmarking framework (SUMO · MATSim · DTALite) with byte-identical
-  reproducibility and a ~25–30× routing speedup on HPC. *Python, OpenMP, SLURM*
+* **[SimForge](https://github.com/phanidharakula/simforge):** Open-source cross-simulator benchmarking framework for urban traffic simulation, integrating SUMO, MATSim, and DTALite under a canonical dataset pipeline for fair comparison. Reduced shared-route pre-routing from 141.9 hours to 7.1 hours through deterministic route caching and 16-way parallelism; benchmarked three cities up to 500K trips and found up to 96% travel-time divergence under saturation.
+  *Python, OpenMP, multiprocessing, Docker, Apptainer, SLURM, SUMO, MATSim, DTALite*
 
-- **[LumiAI](https://github.com/phanidharakula/Lumi_AI):** Production
-  AI tutoring platform serving 55+ active students; document-grounded chat, auto-generated
-  quizzes and flashcards, and spaced-repetition review. Solo-built end to end.
-  *React, TypeScript, Supabase, LLM Integration, Vercel serverless*
+* **[LumiAI](https://github.com/phanidharakula/Lumi_AI):** Production AI tutoring platform serving 60+ active students with document-grounded AI chat, quiz and flashcard generation, SM-2 spaced repetition, and voice mode. Built the LLM serverless layer with token-verified requests, server-side API-key isolation, anonymous-call rejection, streaming responses, and prompt caching.
+  *React, TypeScript, LLMs, Supabase, PostgreSQL, OAuth, Vercel Serverless*
 
-- **Open-source contributor to [Cityscape](https://github.com/raodj/cityscape):**
-  a C++ population-synthesis research framework. Authored three merged PRs:
-  fixed OSM building-classification and orphan-ring logic across five metros
-  (cut synthetic-home artifacts, e.g. LA ~70% → ~5%, and removed ~1.25M
-  stranded-population records), and ran a 4-city HPC parameter sweep that raised
-  worst-case calibration R² from 0.812 to 0.917. *C++, OpenMP, OSC Pitzer*
-  → Merged PRs: [#1](https://github.com/raodj/cityscape/pull/1) ·
-  [#2](https://github.com/raodj/cityscape/pull/2) ·
-  [#3](https://github.com/raodj/cityscape/pull/3)
+* **Open-source contributor to [Cityscape](https://github.com/raodj/cityscape):** C++ population-synthesis and trip-demand generation framework. Authored three merged pull requests fixing OSM building-classification and data-integrity logic across five metros, removing ~1.25M stranded-population artifacts and collapsing LA synthetic-home ratios from ~70% to ~5%. Also ran a 4-city, 16-combination HPC sweep that raised worst-case calibration R² from 0.812 to 0.917.
+  *C++, OpenMP, OSM/Geofabrik, US Census PUMS, OSC HPC*
+  → Merged PRs: [#1](https://github.com/raodj/cityscape/pull/1) · [#2](https://github.com/raodj/cityscape/pull/2) · [#3](https://github.com/raodj/cityscape/pull/3)
 
-📄 **Publication:** First author on *"CITYSCAPE: A Digital Twin Framework for
-Temporospatial Modeling of Work-Commute Dynamics and Roadway Infrastructure
-Demand,"* under review at Frontiers (2026).
+📄 **Publications:** First author on two papers under review in 2026:
 
-🎯 **Interests:** High-performance computing, simulation, agentic AI,
-distributed systems, and building things that actually ship.
+* *Attributable Cross-Simulator Benchmarking for Urban Traffic Simulation: Reproducibility, Consistency, and Regime-Dependent Divergence* — IEEE Transactions on Intelligent Transportation Systems
+* *CITYSCAPE: A Digital Twin Framework for Temporospatial Modeling of Work-Commute Dynamics and Roadway Infrastructure Demand* — Frontiers
 
-📫 **Reach me:** [LinkedIn](https://linkedin.com/in/phanidharakula) ·
-[Portfolio](https://phanidhar.dev) · phanidharakula@gmail.com
+🎯 **Interests:** AI applications, full-stack engineering, backend systems, high-performance computing, simulation systems, digital twins, geospatial data pipelines, and building software that actually ships.
+
+📫 **Reach me:** [LinkedIn](https://linkedin.com/in/phanidharakula) · [Portfolio](https://phanidhar.dev) · [phanidharakula@gmail.com](mailto:phanidharakula@gmail.com)
 
 ---
 
 **Tech I work with:**
-`Python` `C++` `TypeScript` `React` `OpenMP` `SLURM` `PyTorch` `Docker` `PostgreSQL` `AWS`
+`Python` `TypeScript` `JavaScript` `C++` `React` `FastAPI` `PostgreSQL` `Supabase` `LLMs` `RAG` `OpenMP` `SLURM` `Docker` `Apptainer` `AWS` `GitHub Actions`
