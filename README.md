@@ -19,12 +19,6 @@ I build systems where performance, correctness, and real-world usability matter,
   *C++, OpenMP, OSM/Geofabrik, US Census PUMS, OSC HPC*
   → Merged PRs: [#1](https://github.com/raodj/cityscape/pull/1) · [#2](https://github.com/raodj/cityscape/pull/2) · [#3](https://github.com/raodj/cityscape/pull/3)
 
-**Also built:**
-
-* **[Vault Intelligence](https://phanidharakula.github.io/Vault_Dashboard/):** Loan analytics dashboard modeling multi-tranche disbursements, variable-rate phases, and month-by-month amortization, with deep-link sharing and a zero-cost static build. *React, TypeScript, Vite, Recharts*
-* **[Sensor Data Classification](https://github.com/PhanidharAkula/Sensor_Data_Classification):** Human activity recognition from multi-sensor time-series data across accelerometers, gyroscopes, magnetometers, and pressure sensors. *Python, scikit-learn, NumPy, pandas*
-* **[AI-Powered Dungeon Master](https://github.com/PhanidharAkula/AI_Powered_Dungeon_Master):** Interactive D&D platform with LLM-driven narrative generation and a state-management layer keeping AI responses grounded across turns. *Python, LLM APIs*
-
 📄 **Thesis & Publications:**
 
 * **Master's thesis:** *SimForge: A Reproducible, Cross-Simulator Benchmarking Framework for Urban Traffic Simulation* — Miami University / OhioLINK ETD, 2026
