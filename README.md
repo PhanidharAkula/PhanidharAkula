@@ -4,8 +4,6 @@
 
 I build systems where performance, correctness, and real-world usability matter, from reproducible HPC-scale traffic simulation to production AI applications used by students.
 
-🔍 **Currently looking for full-time software engineering roles.**
-
 🛠️ **Recent work:**
 
 * **[SimForge](https://github.com/phanidharakula/simforge):** Open-source cross-simulator benchmarking framework for urban traffic simulation, integrating SUMO, MATSim, and DTALite under a canonical dataset pipeline for fair comparison. Reduced shared-route pre-routing from 141.9 hours to 7.1 hours through deterministic route caching and 16-way parallelism; benchmarked three cities up to 500K trips and found up to 96% travel-time divergence under saturation.
