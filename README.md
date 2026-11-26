@@ -1,6 +1,6 @@
 ## Hi, I'm Phanidhar
 
-Software engineer in Tampa, Florida. M.S. in Computer Science from Miami University, 2026.
+Software engineer. M.S. in Computer Science from Miami University, 2026.
 
 I built an AI tutor that 220+ students study with, made a 142-hour simulation finish in 7, and fixed a bug that was silently dropping 500,000+ buildings from a city model.
 
