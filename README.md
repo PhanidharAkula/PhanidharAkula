@@ -1,37 +1,27 @@
-## Hi, I'm Phanidhar 👋
+## Hi, I'm Phanidhar
 
-**M.S. Computer Science, Miami University (2026)** · Simulation Systems, AI & Full-Stack Software Engineering
+Software engineer in Tampa, Florida. M.S. in Computer Science from Miami University, 2026.
 
-I build systems where performance, correctness, and real-world usability matter, from reproducible HPC-scale traffic simulation to production AI applications used by students.
+I built an AI tutor that 220+ students study with, made a 142-hour simulation finish in 7, and fixed a bug that was silently dropping 500,000+ buildings from a city model.
 
-🛠️ **Recent work:**
+### Work
 
-* **[SimForge](https://github.com/phanidharakula/simforge):** Open-source cross-simulator benchmarking framework for urban traffic simulation, integrating SUMO, MATSim, and DTALite under a canonical dataset pipeline for fair comparison. Reduced shared-route pre-routing from 141.9 hours to 7.1 hours through deterministic route caching and 16-way parallelism; benchmarked three cities up to 500K trips and found up to 96% travel-time divergence under saturation.
-  *Python, OpenMP, multiprocessing, Docker, Apptainer, SLURM, SUMO, MATSim, DTALite*
-  → [Thesis (OhioLINK)](http://rave.ohiolink.edu/etdc/view?acc_num=miami1784152758005036) · [Zenodo DOI](https://doi.org/10.5281/zenodo.21385983)
+- **[Lumi AI](https://github.com/PhanidharAkula/Lumi_AI)** · [studywithlumi.com](https://www.studywithlumi.com/)  
+  An AI tutor that answers from a student's own notes and slides, and writes their quizzes and flashcards. 220+ students and 20,000+ AI interactions so far. I designed, built, deployed and run it on my own.  
+  `React` `TypeScript` `PostgreSQL` `Supabase` `Vercel`
 
-* **[LumiAI](https://github.com/phanidharakula/Lumi_AI) · [Live site](https://studywithlumi.com):** Production AI tutoring platform serving 220+ active students across web, iOS, and Android, with document-grounded AI chat, quiz and flashcard generation, SM-2 spaced repetition, and voice mode. Built the LLM serverless layer with token-verified requests, server-side API-key isolation, anonymous-call rejection, streaming responses, and prompt caching, and extended the TypeScript codebase to native mobile shells via Capacitor from a single shared repository.
-  *React, TypeScript, LLMs, RAG, Supabase, PostgreSQL, OAuth, Capacitor, Vercel Serverless*
+- **[SimForge](https://github.com/PhanidharAkula/SimForge)** · [DOI](https://doi.org/10.5281/zenodo.21385983)  
+  Hands the same city and the same trips to three traffic simulators, then compares what comes out. One step took 142 hours; route caching and 16 supercomputer cores brought it down to 7. 668 automated tests and a container rebuilt on every release keep every run repeatable.  
+  `Python` `Docker` `GitHub Actions` `SLURM`
 
-* **Open-source contributor to [Cityscape](https://github.com/raodj/cityscape):** C++ population-synthesis and trip-demand generation framework. Authored three merged pull requests fixing OSM building-classification and data-integrity logic across five metros, removing ~1.25M stranded-population artifacts and collapsing LA synthetic-home ratios from ~70% to ~5%. Also ran a 4-city, 16-combination HPC sweep that raised worst-case calibration R² from 0.812 to 0.917.
-  *C++, OpenMP, OSM/Geofabrik, US Census PUMS, OSC HPC*
-  → Merged PRs: [#1](https://github.com/raodj/cityscape/pull/1) · [#2](https://github.com/raodj/cityscape/pull/2) · [#3](https://github.com/raodj/cityscape/pull/3)
+- **[Cityscape](https://github.com/raodj/cityscape/pulls?q=author%3APhanidharAkula)** (open-source contributor)  
+  A C++ model that builds a synthetic city from census and map data. It was putting 70% of homes on buildings that didn't exist. Three merged pull requests later, 94% of homes sit on real ones.  
+  `C++` `OpenMP` `OpenStreetMap`
 
-📄 **Thesis & Publications:**
+### Papers
 
-* **Master's thesis:** *SimForge: A Reproducible, Cross-Simulator Benchmarking Framework for Urban Traffic Simulation* — Miami University / OhioLINK ETD, 2026
-* **Software:** Akula, P. (2026). *SimForge* (v1.0.2) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.21385983
-* *Attributable Cross-Simulator Benchmarking for Urban Traffic Simulation: Reproducibility, Consistency, and Regime-Dependent Divergence* — IEEE Transactions on Intelligent Transportation Systems, under review
-* *CITYSCAPE: A Digital Twin Framework for Temporospatial Modeling of Work-Commute Dynamics and Roadway Infrastructure Demand* — Frontiers, under review
+Two first-author papers under review, at *IEEE T-ITS* (SimForge) and *Frontiers* (Cityscape).
 
-🎯 **Interests:** AI applications, full-stack engineering, backend systems, high-performance computing, simulation systems, digital twins, geospatial data pipelines, and building software that actually ships.
+### Reach me
 
----
-
-**Tech I work with:**
-
-`Python` `TypeScript` `JavaScript` `C++` `React` `Next.js` `FastAPI` `PostgreSQL` `Supabase` `LLMs` `RAG` `OpenMP` `SLURM` `Docker` `Apptainer` `Capacitor` `AWS` `GitHub Actions`
-
----
-
-📫 **Reach me:** [LinkedIn](https://linkedin.com/in/phanidharakula) · [Portfolio](https://phanidhar.dev) · [Email](mailto:phanidharakula@gmail.com)
+[phanidhar.dev](https://www.phanidhar.dev/) · [LinkedIn](https://www.linkedin.com/in/phanidharakula) · [Email](mailto:phanidharakula@gmail.com)
